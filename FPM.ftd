@@ -4,5 +4,17 @@
 download-base-url: https://raw.githubusercontent.com/heulitig/heulog/main
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/texty-ps as ps
 
 -- fpm.auto-import: ds
+-- fpm.auto-import: ps
+
+-- fpm.sitemap:
+
+# Home: /
+
+# Blog: /blog/
+
+# Work: /work/
+
+# Misc: /misc/
