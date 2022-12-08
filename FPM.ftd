@@ -1,0 +1,8 @@
+-- import: fpm
+
+-- fpm.package: heulitig.github.io/heulog
+download-base-url: https://raw.githubusercontent.com/heulitig/heulog/main
+
+-- fpm.dependency: fifthtry.github.io/doc-site as ds
+
+-- fpm.auto-import: ds
