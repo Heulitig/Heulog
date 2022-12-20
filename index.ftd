@@ -1,7 +1,5 @@
 -- import: heulitig.github.io/heulog/assets
 
--- ps.copyright: Copyright 2012-2022 FifthTry (Rithik).
-
 -- ps.page:
 avatar: $assets.files.static.male-avatar.jpg
 contact-txt: Contact
@@ -11,7 +9,7 @@ contact-url: /contact/
 
 Most of the people in the IT industry might not be knowing me and some might
 recognize as `Heulitig`. I can tell you a little about myself.
-The name is `Rithik` and Im currently working with `FifthTry` to assist in their
+The name is `Rithik` and currently working with `FifthTry` to assist in their
 development of `FTD` and its related projects. This newbie in the company struggles
 as he makes progress in his tasks, breaks the code multiple times and
 in the end tries to retain the knowledge he gains along the way in case
