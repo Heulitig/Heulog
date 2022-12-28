@@ -8,13 +8,16 @@ download-base-url: https://raw.githubusercontent.com/heulitig/heulog/main
 
 -- fpm.auto-import: ds
 -- fpm.auto-import: ps
+-- fpm.auto-import: heulitig.github.io/heulog/FPM/config
 
 -- fpm.sitemap:
 
 # Home: /
 
-# Blog: /blog/
+# Resume: /resume/
 
-# Work: /work/
+# Tasks: /current-work/
 
-# Misc: /misc/
+# Queries: /queries/
+
+# Memes: /memes/
