@@ -1,0 +1,44 @@
+-- import: heulitig.github.io/heulog/assets
+
+-- ps.page:
+
+-- ds.h1: Current Queries in mind
+
+-- ds.h2: X-FPM-HEADER-SUPPORT
+
+X-FPM header will take the value provided by the user given in `user-id` under fpm.app.
+
+What is supposed to be done with this `user-id` value ?
+
+So no need to assign header value from github cookie made after github-fpm-auth ?
+
+Endpoint needs to be removed and only fpm.app will use it ?
+
+-- ds.code:
+lang: ftd
+
+\-- fpm.app: Hosting
+user-id: <github-email/username>
+
+-- ds.h2: `request-data` to support POST body
+
+Currently, there is no doubt in this matter.
+
+Encoding to handle
+- `application/x-www-form-urlencoded` (mime_guess::mime::APPLICATION_WWW_FORM_URLENCODED)
+- `multipart/form-data;boundary="boundary"` (mime_guess::mime::MULTIPART_FORM_DATA)
+
+-- noice:
+
+-- ds.h2: `texty-ps` for personal website
+
+No doubts, just some fixes needs to be done and need to add more content.
+
+-- ps.home:
+
+-- ftd.row noice:
+
+--- ftd.image:
+src: $assets.files.static.nice-joestar.gif
+height: 200
+width: 400

@@ -14,8 +14,10 @@ download-base-url: https://raw.githubusercontent.com/heulitig/heulog/main
 
 # Home: /
 
-# Blog: /blog/
+# Resume: /resume/
 
-# Work: /work/
+# Tasks: /current-work/
 
-# Misc: /misc/
+# Queries: /queries/
+
+# Memes: /memes/
