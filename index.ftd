@@ -1,7 +1,7 @@
 -- import: heulitig.github.io/heulog/assets
 
 -- ps.page:
-avatar: $assets.files.static.dio.gif
+avatar: $assets.files.static.myself.png
 
 -- ds.h1: Hello there, welcome to my home page of disasters.
 
@@ -14,10 +14,3 @@ in the end tries to retain the knowledge he gains along the way in case
 the code actually executes successfully which never happens on first try.
 
 -- ps.home:
-
--- ftd.row noice:
-
---- ftd.image:
-src: $assets.files.static.nice-joestar.gif
-height: 200
-width: 400
