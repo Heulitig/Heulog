@@ -4,4 +4,7 @@
 
 -- ds.h1: Resume content needs to be added here
 
+-- res.show-resume:
+resume: $s.john-doe
+
 -- ps.home:

@@ -1,0 +1,74 @@
+-- import: heulitig.github.io/heulog/assets
+
+-- boolean show-gmail: false
+
+-- optional string external-url:
+$always-include$: true
+
+-- ps.page:
+
+-- ds.h1: Trying to find me desperately, reach out to me at
+
+-- ftd.column:
+align: center
+width: fill
+spacing: 15
+
+--- platform-button:
+button-text: Github
+$on-click$: $external-url = https://github.com/Heulitig/
+$on-click$: message-host $external-redirect
+
+--- platform-button:
+button-text: LinkedIn
+icon: $assets.files.static.linkedin-dark.svg
+$on-click$: $external-url = https://www.linkedin.com/in/rithik-seth
+$on-click$: message-host $external-redirect
+
+--- platform-button:
+button-text: Gmail
+icon: $assets.files.static.gmail-dark.svg
+$on-click$: toggle $show-gmail
+
+-- ftd.row:
+if: $show-gmail
+padding-top: 10
+
+--- ftd.text: seth.rithik@gmail.com
+color: $fpm.color.main.text-strong
+
+-- ps.home:
+
+
+-- ftd.row platform-button:
+optional string button-text:
+optional string width:
+ftd.image-src icon: $assets.files.static.github-logo-dark.svg
+border-radius: 4
+width: $width
+cursor: pointer
+background-color if $MOUSE-IN: $fpm.color.main.cta-primary.hover
+background-color: $fpm.color.main.cta-primary.base
+margin-top: -4
+spacing: 10
+padding: 10
+
+--- ftd.image:
+src: $icon
+height: 30
+width: auto
+move-down: 3
+
+--- ftd.text:
+if: $button-text is not null
+text: $button-text
+white-space: nowrap
+role: $fpm.type.heading-small
+align: center
+text-align: center
+color: $fpm.color.main.text-strong
+
+-- object external-redirect:
+function: http
+method: get
+url: $external-url

@@ -2,8 +2,10 @@
 
 -- ps.page:
 avatar: $assets.files.static.myself.png
+contact-txt: Contact
+contact-url: /contact/
 
--- ds.h1: Hello there, welcome to my home page of disasters.
+-- ds.h1: Hello there, welcome to my home page.
 
 Most of the people in the IT industry might not be knowing me and some might
 recognize as `Heulitig`. I can tell you a little about myself.

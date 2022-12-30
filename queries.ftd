@@ -17,22 +17,28 @@ Endpoint needs to be removed and only fpm.app will use it ?
 -- ds.code:
 lang: ftd
 
-\-- fpm.app: Hosting
+\-- fpm.app: Controller app
 user-id: <github-email/username>
+package: fpm-controller-ui.fly.dev
+endpoint: <service-endpoint>
+mount-point: /hosting/
 
 -- ds.h2: `request-data` to support POST body
 
-Currently, there is no doubt in this matter.
+If not the usual json body, how are we going to send the form encoded data ?
+
+Is it going like headers as usual or are we going to encode the key-value pairs to
+form urlencoded format and then make a request using this processed data ?
 
 Encoding to handle
 - `application/x-www-form-urlencoded` (mime_guess::mime::APPLICATION_WWW_FORM_URLENCODED)
 - `multipart/form-data;boundary="boundary"` (mime_guess::mime::MULTIPART_FORM_DATA)
 
--- noice:
-
 -- ds.h2: `texty-ps` for personal website
 
 No doubts, just some fixes needs to be done and need to add more content.
+
+-- noice:
 
 -- ps.home:
 

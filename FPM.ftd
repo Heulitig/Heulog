@@ -5,9 +5,17 @@ download-base-url: https://raw.githubusercontent.com/heulitig/heulog/main
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 -- fpm.dependency: fifthtry.github.io/texty-ps as ps
+-- fpm.dependency: fifthtry.github.io/button as button
+/-- fpm.dependency: fifthtry.github.io/paper-resume as res
+/-- fpm.dependency: fifthtry.github.io/resume/sample as s
 
+
+/-- fpm.auto-import: res
+/-- fpm.auto-import: s
 -- fpm.auto-import: ds
 -- fpm.auto-import: ps
+-- fpm.auto-import: fpm
+-- fpm.auto-import: button
 -- fpm.auto-import: heulitig.github.io/heulog/FPM/config
 
 -- fpm.sitemap:
@@ -15,6 +23,7 @@ download-base-url: https://raw.githubusercontent.com/heulitig/heulog/main
 # Home: /
 
 # Resume: /resume/
+  skip: true
 
 # Tasks: /current-work/
 
